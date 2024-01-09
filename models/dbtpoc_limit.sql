@@ -1,4 +1,4 @@
-{{ config(materialized="table") }}
+{{ config(materialized="view") }}
 
 with
     source_data as (   select * from genuine-rope-410306.dbtpoc.tbl_dbt_poc limit 3    )
