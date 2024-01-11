@@ -42,3 +42,5 @@ models:
       +materialized: table
   dbtpoc_limit:
     +materialized: table
+  dbtpoc_view:
+    +materialized: view
